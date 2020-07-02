@@ -1,0 +1,263 @@
+body {
+    margin: 1%;
+    font-family: 'questa_regular';
+    background: rgb(38,73,77);
+    background: -moz-linear-gradient(180deg, rgba(38,73,77,1) 25%, rgba(147,164,166,1) 90%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(38,73,77,1) 25%, rgba(147,164,166,1) 90%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(38,73,77,1) 25%, rgba(147,164,166,1) 90%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26494d",endColorstr="#ffffff",GradientType=1);
+}
+
+main {
+    width: 96%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2%;
+    border-bottom: 2px rgb(38,73,77) solid;
+    overflow: hidden;
+}
+
+main p {
+    margin: 0 0 2% 0;
+}
+
+main article {
+    float: left;
+    width: 70%;
+}
+
+main aside {
+    float:right;
+    width: 25%;
+    margin: 0 0 5% 0;
+}
+
+.volunteer 
+
+header {
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 1%;
+}
+
+header .logo {
+    width: 20%;
+    float: left;
+}
+
+header .logo img {
+    width: 120%;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 3%;
+    width: 75%;
+    float: right;
+    font-family: 'questa_slab_regular';
+    text-transform: uppercase;
+    margin: 3% 0 0 5%;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header nav ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 5%;
+}
+
+header nav ul li a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    background-color: rgba(147,164,166,1);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    display: block;
+    background-color: rgb(255,255,255);
+    padding: 5%;
+    color: rgb(38,73,77);     
+}
+
+header .mobile {
+    display: none;
+}
+
+footer {
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1%;
+    text-align: center;
+}
+
+.mobile_menu {
+    display: none;
+}
+
+section .page_header {
+    padding: 1%;
+    margin: 0 0 2% 0;
+    background: rgb(38,73,77);
+    background: -moz-linear-gradient(90deg, rgba(38,73,77,1) 10%, rgba(147,164,166,1) 30%, rgba(147,164,166,1) 70%, rgba(38,73,77,1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(38,73,77,1) 10%, rgba(147,164,166,1) 30%, rgba(147,164,166,1) 70%, rgba(38,73,77,1) 90%);
+    background: linear-gradient(90deg, rgba(38,73,77,1) 10%, rgba(147,164,166,1) 30%, rgba(147,164,166,1) 70%, rgba(38,73,77,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26494d",endColorstr="#26494d",GradientType=1);
+}
+
+section .page_header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* 
+=========================================================================================
+Header Section - This will be where the fonts are defined.
+========================================================================================= 
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'questa_grande_regular';
+    color: rgb(38,73,77);
+    letter-spacing: .1rem;
+}
+
+
+/* 
+=========================================================================================
+Font Section - This will be where the fonts are defined.
+========================================================================================= 
+*/
+
+@font-face {
+    font-family: 'questa_grande_regular';
+    src: url('assets/fonts/2-questa_grande_regular_31-webfont.woff2') format('woff2'),
+         url('assets/fonts/2-questa_grande_regular_31-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'questa_regular';
+    src: url('assets/fonts/2-Questa_Regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/2-Questa_Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'questa_sans_regular';
+    src: url('assets/fonts/2-Questa_Sans_Regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/2-Questa_Sans_Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'questa_slab_regular';
+    src: url('assets/fonts/2_questa_slab_regular_25-webfont.woff2') format('woff2'),
+         url('assets/fonts/2_questa_slab_regular_25-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
+=========================================================================================
+Mobile Breakpoint Section - Any special mobile styles here.
+========================================================================================= 
+*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    header .mobile {
+        width: 20%;
+        display: block;
+        float: right;
+    }
+
+    .mobile_menu {
+        display: none;
+    }
+
+    header .mobile img {
+        margin: auto 0;
+        padding: 10% 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header .logo {
+        width: 80%;
+        float: left;
+    }
+
+    header .logo img {
+        text-align: center;
+        width: 65%;
+    }
+
+    .mobile_menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .mobile_menu ul li {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .mobile_menu ul li a {
+        display: block;
+        padding: 5%;
+    }
+    
+    .mobile_menu ul li a:link {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .mobile_menu ul li a:hover {
+        display: block;
+        background-color: rgb(255,255,255);
+        padding: 5%;
+        color: rgb(38,73,77);     
+    }
+
+    main article {
+        width: 100%;
+        padding: 2%;
+    }
+    
+    main aside {
+        width: 100%;
+        padding: 2%;
+    }
+    
+}
