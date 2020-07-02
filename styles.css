@@ -222,7 +222,6 @@ Mobile Breakpoint Section - Any special mobile styles here.
         list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
     }
 
     .mobile_menu ul li {
@@ -248,6 +247,11 @@ Mobile Breakpoint Section - Any special mobile styles here.
         background-color: rgb(255,255,255);
         padding: 5%;
         color: rgb(38,73,77);     
+    }
+
+    .mobile_menu ul li a:visited {
+        text-decoration: none;
+        color: #fff;
     }
 
     main article {
