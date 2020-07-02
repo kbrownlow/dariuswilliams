@@ -103,10 +103,39 @@ header .mobile {
 }
 
 footer {
-    width: 98%;
+    width: 96%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+footer ul.nav {
+    list-style-type: none;
+    margin: 2% 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul.nav li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+footer ul.nav li a:link, footer ul.nav li a:visited {
+    color: rgb(38,73,77);
+    text-decoration: none;
+}
+
+footer .identification1 {
+    text-align: center;
+    color: rgb(38,73,77);
+}
+
+footer .identification2 {
     text-align: center;
 }
 
@@ -262,6 +291,19 @@ Mobile Breakpoint Section - Any special mobile styles here.
     main aside {
         width: 96%;
         padding: 2%;
+    }
+
+    footer ul.nav { display: none;}
+
+    footer .identification1 {
+        text-align: center;
+        color: rgb(38,73,77);
+        font-size: 14px;
+    }
+    
+    footer .identification2 {
+        text-align: center;
+        font-size: 12px;
     }
     
 }
